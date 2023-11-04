@@ -1,4 +1,4 @@
-namespace: linknamu
+namespace: default
 resources:
   - deployment.yaml
   - service.yaml
@@ -6,4 +6,4 @@ resources:
 secretGenerator:
   - name: database-creds
     files:
-	- googleOuth.txt
+    - googleOuth.txt
