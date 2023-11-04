@@ -5,5 +5,3 @@ resources:
   - ingress.yaml
 secretGenerator:
   - name: database-creds
-    files:
-    - googleOuth.txt
