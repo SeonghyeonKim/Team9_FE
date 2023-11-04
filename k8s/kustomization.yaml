@@ -1,5 +1,9 @@
-namespace: krampoline
+namespace: linknamu
 resources:
   - deployment.yaml
   - service.yaml
   - ingress.yaml
+secretGenerator:
+  - name: database-creds
+    files:
+	- googleOuth.txt
