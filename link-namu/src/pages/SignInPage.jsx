@@ -3,6 +3,7 @@ import SignIn from "../components/atoms/SignIn";
 const GOOGLE_ID = process.env.REACT_APP_GOOGLE_ID;
 
 const SignInPage = () => {
+	console.log(GOOGLE_ID)
   return (
     <div>
       {GOOGLE_ID && (
