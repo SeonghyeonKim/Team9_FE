@@ -14,7 +14,7 @@ spec:
       containers:
         - name: frontend
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_0a7a903565e2
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_e7e7918b8977
           env:
           - name: REACT_APP_GOOGLE_ID
             valueFrom:
