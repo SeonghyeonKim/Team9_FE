@@ -15,14 +15,6 @@ spec:
         - name: frontend
           # 여러분의 image 주소를 입력해주세요.
           image: krmp-d2hub-idock.9rum.cc/dev-test/repo_46e47b279ccd
-          env:
-          - name: REACT_APP_GOOGLE_ID
-            valueFrom:
-              secretKeyRef:
+          envFrom:
+            - secretRef:
                 name: my-react-app-secrets
-                key: REACT_APP_GOOGLE_ID
-          - name: REACT_APP_GOOGLE_TOKEN
-            valueFrom:
-              secretKeyRef:
-                name: my-react-app-secrets
-                key: REACT_APP_GOOGLE_TOKEN
