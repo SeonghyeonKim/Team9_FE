@@ -14,7 +14,7 @@ spec:
       containers:
         - name: frontend
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_69229a69531d
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_15e3311fbb97
           envFrom:
             - secretRef:
                 name: my-react-app-secrets
