@@ -19,10 +19,10 @@ spec:
 		    - name: REACT_APP_GOOGLE_ID
 			    valueFrom:
 				  secretKeyRef:
-				    name: REACT_APP_GOOGLE_ID
+				    name: my-react-app-secrets
 					key: REACT_APP_GOOGLE_ID
 			- name: REACT_APP_GOOGLE_TOKEN
 			    valueFrom:
 				  secretKeyRef:
-				    name: REACT_APP_GOOGLE_TOKEN
+				    name: my-react-app-secrets
 					key: REACT_APP_GOOGLE_TOKEN
